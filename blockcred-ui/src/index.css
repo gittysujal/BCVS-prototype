@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark cyber grid */
+body {
+  background-color: #000;
+  color: #e6fffb;
+  background-image:
+    linear-gradient(rgba(0,255,170,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,255,170,0.06) 1px, transparent 1px);
+  background-size: 24px 24px, 24px 24px;
+  background-position: -1px -1px, -1px -1px;
+}
+
